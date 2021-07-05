@@ -28,7 +28,7 @@ int main(int sta, char **dion)
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB);
     glutInitWindowSize(1200, 750);
     glutInitWindowPosition(100, 20);
-    glutCreateWindow("BENTENG PORTUGIS JEPARA");
+    glutCreateWindow("golden resources mall");
     er_init();
     glutDisplayFunc(tampil);
     glutKeyboardFunc(keyboard);
