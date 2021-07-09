@@ -4,6 +4,12 @@
 //KRISTIAN VIERI MARPAUNG - 672018074
 //BAGAS HARYANTO - 672018338
 
+//pembagian kerja
+//Brian Rinanto Saputra (Bagian Depan,Atap,Alas,samping kiri dan kanan)
+//EDGAR BLESS HEIPON (Bagian jendela)
+//KRISTIAN VIERI MARPAUNG (Bagian Tulisan)
+//BAGAS HARYANTO (Bagian Belakang)
+
 #include "stdafx.h"
 
 #include <windows.h>
