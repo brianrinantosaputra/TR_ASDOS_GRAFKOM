@@ -1,6 +1,3 @@
-// TR-1.cpp : Defines the entry point for the console application.
-//
-
 #include "stdafx.h"
 
 #include <windows.h>
@@ -44,7 +41,6 @@ void er_init(void)
     glClearColor(0.5, 0.5, 1.5, 1.5);
     glViewport(10000000, 4000000, -10000000, -400000);
     glMatrixMode(GL_PROJECTION);
-    //glEnable(GL_LIGHTING);
     glEnable(GL_COLOR_MATERIAL);
     glEnable(GL_LIGHT0);
     glEnable(GL_DEPTH_TEST);
@@ -25455,17 +25451,11 @@ glEnd();
 }
 void tampil(void)
 {
-	/*if (is_depth)
-		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-	else
-		glClear(GL_COLOR_BUFFER_BIT);*/
-
 	glPushMatrix();
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	gluLookAt(0,10,20,0,0,0,0,10,0);
 	glRotatef(xrot, 1, 0, 0);
 	glRotatef(yrot, 0, 1, 0);
-
 
 	tembok_depan();
 	tembok_belakang();
@@ -25476,9 +25466,6 @@ void tampil(void)
 	tulisan_2();
 	alas();
 
-
-
-	//glPushMatrix();
 	glPopMatrix();
 	glutSwapBuffers();
 }
@@ -25580,5 +25567,3 @@ void ukuran(int lebar, int tinggi)
     glTranslatef(0.0, -5.0, -150.0);
     glMatrixMode(GL_MODELVIEW);
 }
-
-
