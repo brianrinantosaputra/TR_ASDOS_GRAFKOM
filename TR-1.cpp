@@ -12,7 +12,7 @@ void keyboard(unsigned char, int, int);
 void ukuran(int, int);
 void mouse(int button, int state, int x, int y);
 void mouseMotion(int x, int y);
-GLUquadricObj *obj = gluNewQuadric();
+
 
 float xrot = 0.0;
 float yrot = 0.0;
