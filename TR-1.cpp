@@ -1,5 +1,8 @@
-// TR-1.cpp : Defines the entry point for the console application.
-//
+//nama anggota
+//Brian Rinanto Saputra - 672018065
+//EDGAR BLESS HEIPON - 672018062
+//KRISTIAN VIERI MARPAUNG - 672018074
+//BAGAS HARYANTO - 672018338
 
 #include "stdafx.h"
 
